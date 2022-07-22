@@ -31,6 +31,7 @@ ul{
   position: -webkit-sticky;
   position: sticky;
   top: 0; 
+  z-index: auto;
 }
 li{
   display: inline-block;
@@ -53,25 +54,12 @@ nav ul li a:hover{
 main{
   float: left;
   position: relative;
-  width: 800px;
-  padding-bottom: 35%;
+  width: 600px;
+  padding-bottom: 5%;
   height: 0;
 }
 h1{
   color: #000;
-}
-.heroText p{
-  font-size: 20px;
-  line-height: 20px;
-  color: #000000;
-}
-.heroText{
-  color: #fff;
-  height: 700px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .heroText button{
   padding: 5px 30px;
@@ -91,8 +79,22 @@ h1{
   background-color: #f50202;
   color: #ffffff;
 }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 50%;
+  height: 50%;
+}
 h2{
   color: #000000;
+}
+footer{
+ border: solid black;
 }
 ion-icon {
   font-size: 40px;
@@ -102,21 +104,6 @@ ion-icon {
 ion-icon:hover{
   color: #d70000;
 }
-iframe{
-  position: relative;
-  top: 47px;
-  left: 670px;
-  width: 100vw;
-}
 pre{
   color: #000;
-}
-article{
-  float: left;
-  content:"";
-  padding: 10%;
-  margin-left: 35%;
-}
-footer{
-  clear: both;
 }
