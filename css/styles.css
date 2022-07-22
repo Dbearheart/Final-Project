@@ -64,7 +64,32 @@ h1{
   font-size: 20px;
   line-height: 20px;
   color: #000000;
-
+}
+.heroText{
+  color: #fff;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heroText button{
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #000000;
+  color: #fff;
+  box-shadow: 2px 3px 5px #d30000;
+}
+.heroText button:hover{
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+.heroText button:active{
+  border: 1px solid #fff;
+  background-color: #f50202;
+  color: #ffffff;
 }
 h2{
   color: #000000;
@@ -77,12 +102,11 @@ ion-icon {
 ion-icon:hover{
   color: #d70000;
 }
-video{
+iframe{
   position: relative;
   top: 47px;
   left: 670px;
-  width: 100%;
-  height: auto;
+  width: 100vw;
 }
 pre{
   color: #000;
