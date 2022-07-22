@@ -61,6 +61,9 @@ main{
 h1{
   color: #000;
 }
+pre{
+  color: #000;
+}
 .heroText button{
   padding: 5px 30px;
   border-radius: 20px;
@@ -94,7 +97,7 @@ h2{
   color: #000000;
 }
 footer{
- border: solid black;
+ margin-top: 190px;
 }
 ion-icon {
   font-size: 40px;
@@ -104,6 +107,4 @@ ion-icon {
 ion-icon:hover{
   color: #d70000;
 }
-pre{
-  color: #000;
-}
+
