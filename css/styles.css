@@ -79,25 +79,26 @@ pre{
   background-color: #f50202;
   color: #ffffff;
 }
-.video-container {
+.video-container{
+  left: 200px;
   position: relative;
-  padding-bottom: 56.25%;
-  z-index: -1;
+  padding-bottom: 25%;
+  width: 1000px;
 }
-.video-container iframe {
+.video-container iframe{
   position: absolute;
-  top: 0;
-  left: 700px;
-  width: 50%;
-  height: 50%;
+  top: 300px;
+  left: 500px;
+  width: 67.85%;
+  height: 100%;
 }
 h2{
   color: #000000;
 }
 footer{
- margin-top: 190px;
+ margin-top: 640px;
 }
-ion-icon {
+ion-icon{
   font-size: 40px;
   color: #000000;
   transition: color 0.6s;
