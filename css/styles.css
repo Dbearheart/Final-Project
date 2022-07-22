@@ -48,9 +48,6 @@ a{
 nav ul li a:hover{
   color: #d70000;
 }
-.borders{
-  border: solid 1px black;
-}
 main{
   float: left;
   position: relative;
@@ -85,6 +82,7 @@ pre{
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
+  z-index: -1;
 }
 .video-container iframe {
   position: absolute;
