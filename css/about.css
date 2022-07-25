@@ -16,16 +16,16 @@ body{
 }
 header{
   display: flex;
-  height: 90px;
-  padding: 20px;
+  height: 100px;
+  padding: 9px;
   position: -webkit-sticky;
   position: sticky;
   top: 0; 
   z-index: 1;
-  background-color: #EDEFF6;
+  background-color: #f6f9ffda;
 }
 img{
-  position: ;
+  height: 50px;
 }
 nav{
   flex: 1;
@@ -74,7 +74,7 @@ pre{
 }
 .video-container iframe{
   position: absolute;
-  top: -285px;
+  top: -395px;
   left: 600px;
   width: 67.85%;
   height: 100%;
@@ -91,6 +91,7 @@ footer{
  margin-top: 500px;
 }
 ion-icon{
+  align-items: center;
   font-size: 40px;
   color: #000000;
   transition: color 0.6s;
