@@ -36,7 +36,7 @@ nav ul li a:hover{
 ul{
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 40px;
   text-align: center;
 }
 li{
@@ -87,7 +87,7 @@ h2{
   font-size: 30px
 }
 footer{
- margin-top: 500px;
+ margin-top: 450px;
 }
 ion-icon{
   align-items: center;
@@ -97,4 +97,7 @@ ion-icon{
 }
 ion-icon:hover{
   color: #d70000;
+}
+.topnav-centered a {
+  transform: translate(-50%, -50%);
 }
