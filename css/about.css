@@ -14,8 +14,13 @@ body{
 }
 header{
   display: flex;
-  height: 200px;
-  padding: 50px;
+  height: 90px;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; 
+  z-index: 1;
+  background-color: #EDEFF6;
 }
 img{
   margin-right: 30px;
@@ -23,15 +28,14 @@ img{
 nav{
   flex: 1;
 }
+nav ul li a:hover{
+  color: #d70000;
+}
 ul{
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; 
-  z-index: auto;
 }
 li{
   display: inline-block;
@@ -45,40 +49,45 @@ a{
   text-decoration: none;
   transition: color 0.3s;
 }
-nav ul li a:hover{
-  color: #d70000;
-}
 main{
-  float: left;
-  position: relative;
-  width: 600px;
-  padding-bottom: 5%;
-  height: 0;
+  height: 500px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #f6f9ffb4;
+  color: #fff
 }
 h1{
   color: #000;
 }
 pre{
   color: #000;
+  font-family:'orbitron';
+
 }
 .video-container{
-  left: 200px;
+  left: 100px;
   position: relative;
   padding-bottom: 25%;
   width: 1000px;
 }
 .video-container iframe{
   position: absolute;
-  top: 300px;
-  left: 500px;
+  top: -385px;
+  left: 600px;
   width: 67.85%;
   height: 100%;
 }
+article{
+  text-align: center;
+  margin-top: 100px;
+}
 h2{
   color: #000000;
+  font-size: 30px
 }
 footer{
- margin-top: 640px;
+ margin-top: 440px;
 }
 ion-icon{
   font-size: 40px;
