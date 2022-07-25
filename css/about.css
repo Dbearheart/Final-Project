@@ -25,7 +25,7 @@ header{
   background-color: #EDEFF6;
 }
 img{
-  margin-right: 30px;
+  position: ;
 }
 nav{
   flex: 1;
@@ -52,9 +52,8 @@ a{
   transition: color 0.3s;
 }
 main{
-  height: 500px;
+  height: 440px;
   padding: 5px 15px;
-  border-radius: 20px;
   border: 1px solid #fff;
   background-color: #f6f9ffb4;
   color: #fff
@@ -75,7 +74,7 @@ pre{
 }
 .video-container iframe{
   position: absolute;
-  top: -385px;
+  top: -285px;
   left: 600px;
   width: 67.85%;
   height: 100%;
@@ -89,7 +88,7 @@ h2{
   font-size: 30px
 }
 footer{
- margin-top: 440px;
+ margin-top: 500px;
 }
 ion-icon{
   font-size: 40px;
