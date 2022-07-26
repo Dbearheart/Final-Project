@@ -66,6 +66,7 @@ h1{
   color: #000;
 }
 pre{
+  font-family: 'Orbitron', sans-serif;
   color: #000;
 }
 .heroText button{
@@ -95,7 +96,7 @@ pre{
 .video-container iframe{
   position: absolute;
   top: 90px;
-  left: 500px;
+  left: 560px;
   width: 67.85%;
   height: 100%;
 }
