@@ -58,6 +58,7 @@ main{
   float: left;
   position: relative;
   width: 600px;
+  padding-top: 5%;
   padding-bottom: 5%;
   height: 0;
 }
@@ -93,7 +94,7 @@ pre{
 }
 .video-container iframe{
   position: absolute;
-  top: 300px;
+  top: 90px;
   left: 500px;
   width: 67.85%;
   height: 100%;
@@ -102,7 +103,7 @@ h2{
   color: #000000;
 }
 footer{
- margin-top: 640px;
+ margin-top: 686px;
 }
 ion-icon{
   font-size: 40px;
