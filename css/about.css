@@ -80,14 +80,14 @@ pre{
 }
 article{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 h2{
   color: #000000;
   font-size: 30px
 }
-footer{
- margin-top: 440px;
+.socialmedia{
+  display: inline-flex;
 }
 ion-icon{
   align-items: center;
