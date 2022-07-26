@@ -33,6 +33,9 @@ nav{
 nav ul li a:hover{
   color: #d70000;
 }
+.topnav-centered a {
+  transform: translate(-50%, -50%);
+}
 ul{
   list-style: none;
   margin: 0;
@@ -97,7 +100,4 @@ ion-icon{
 }
 ion-icon:hover{
   color: #d70000;
-}
-.topnav-centered a {
-  transform: translate(-50%, -50%);
 }
