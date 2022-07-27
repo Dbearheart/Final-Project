@@ -88,7 +88,9 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f6f9ffda;
   padding: 20px;
-  max-width: 40%;
+  max-width: 35%;
+  min-width: none;
+  float: left;
 }
 footer{
   clear: both;
