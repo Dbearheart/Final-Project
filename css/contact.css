@@ -7,11 +7,11 @@ body{
   font-family: 'Orbitron', sans-serif;
   background-color:#EDEFF6 ;
   background-image: url("../img/white_hex.jpeg");
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: 1320px;
+  height: 640px;
   max-width: 100%;
 }
 header{
@@ -54,27 +54,8 @@ a{
 nav ul li a:hover{
   color: #d70000;
 }
-.borders{
-  border: solid 1px black;
-}
-main{
-  float: left;
-  position: relative;
-  width: 800px;
-  padding-bottom: 35%;
-  height: 0;
-}
 h1{
   color: #000;
-}
-h2{
-  color: #000000;
-}
-.heroText p{
-  font-size: 20px;
-  line-height: 20px;
-  color: #000000;
-
 }
 ion-icon {
   font-size: 40px;
@@ -84,13 +65,6 @@ ion-icon {
 ion-icon:hover{
   color: #d70000;
 }
-video{
-  position: absolute;
-  top: 47px;
-  left: 670px;
-  width: 100%;
-  height: auto;
-}
 article{
   float: left;
   content:"";
@@ -99,4 +73,31 @@ article{
 }
 footer{
   clear: both;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #d70000;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 40%;
 }
