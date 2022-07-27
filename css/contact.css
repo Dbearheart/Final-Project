@@ -9,7 +9,7 @@ body{
   background-image: url("../img/white_hex.jpeg");
   color: rgb(0, 0, 0);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: left;
   height: 640px;
   max-width: 100%;
@@ -54,10 +54,12 @@ a{
 nav ul li a:hover{
   color: #d70000;
 }
+.formtitle{
+  text-align: center;
+}
 h1{
   color: #000;
 }
-
 aside{
   float: right;
 }
@@ -73,18 +75,18 @@ input[type=text], select, textarea {
 }
 input[type=submit] {
   background-color: #d70000;
-  color: rgb(0, 0, 0);
+  color: #000000;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #bababa;
 }
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f6f9ffda;
   padding: 20px;
   max-width: 40%;
 }
