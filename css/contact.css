@@ -50,22 +50,11 @@ a{
 nav ul li a:hover{
   color: #d70000;
 }
-.formtitle{
-  text-align: center;
-}
 h1{
   color: #000;
 }
 aside{
   float: right;
-}
-.container {
-  border-radius: 5px;
-  background-color: #f6f9ffda;
-  padding: 20px;
-  max-width: 35%;
-  min-width: none;
-  float: left;
 }
 footer{
   clear: both;
