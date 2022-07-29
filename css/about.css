@@ -101,3 +101,8 @@ ion-icon{
 ion-icon:hover{
   color: #d70000;
 }
+p{
+  text-align: center;
+  transform: translate(0%, -50%);
+  color: black;
+}
