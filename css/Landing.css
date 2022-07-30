@@ -18,7 +18,7 @@ iframe{
   height: 100vh;
   transform: translate(-50%, -50%);
 }
-#text{
+#logo{
   position: absolute;
   color: #FFFFFF;
   left: 50%;
@@ -26,12 +26,12 @@ iframe{
   transform: translate(-50%, -50%);
 }
 @media (min-aspect-ratio: 16/9) {
-  .video-container iframe {
+.video-container iframe {
     height: 56.25vw;
   }
 }
 @media (max-aspect-ratio: 16/9) {
-  .video-container iframe {
+.video-container iframe {
     width: 177.78vh;
   }
 }
