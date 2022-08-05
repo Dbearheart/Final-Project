@@ -123,7 +123,7 @@ p{
   transform: translate(0%, -50%);
   color: black;
 }
-.modal{
+.popupbox{
   display: none; 
   position: fixed; 
   z-index: 1; 
@@ -136,7 +136,7 @@ p{
   background-color: #000000; 
   background-color: #00000066;
 }
-.modal-content {
+.popupcontent{
   background-color: #fefefecd;
   margin: auto;
   padding: 20px;
@@ -144,18 +144,18 @@ p{
   width: 76%;
   height: 77%;
 }
-.close {
+.close{
   color: #000000;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-.close:hover, .close:focus {
+.close:hover, .close:focus{
   color: #d70000;
   text-decoration: none;
   cursor: pointer;
 }
-#myBtn{
+#xbutton{
   background-color: #80ff0000;
   border: none;
   font-family: 'Orbitron', sans-serif;
@@ -165,7 +165,7 @@ p{
   transition: color 0.3s;
   transform: translate(-50%, -105%);
 }
-#myBtn:hover{
+#xbutton:hover{
   color: #d70000;
 }
 .mapouter{
